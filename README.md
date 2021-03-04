@@ -1,5 +1,5 @@
 # RIAI 2020 Course Project
-This repository contains the code for reproducing the results of our project in the 2020 Reliable and Interpretable Artificial Intelligence (RIAI) class at ETH Zurich. The task of this year’s RIAI course project was to use [DeepPoly](https://dl.acm.org/doi/abs/10.1145/3290354) in order to build a verifier that is as precise and scalable as possible while keeping the soundness property. For evaluation, ten different pre-trained neural networks were given together with two test cases each. The MNIST dataset was used. Please find our project report [here](Project_Report.pdf).
+This repository contains the code for reproducing the results of our project in the 2020 Reliable and Interpretable Artificial Intelligence (RIAI) class at ETH Zurich. The task of this year’s RIAI course project was to use [DeepPoly](https://dl.acm.org/doi/abs/10.1145/3290354) in order to build a verifier that is as precise and scalable as possible while keeping the soundness property. For evaluation, ten different trained neural networks were given together with two test cases each. The networks were trained on the MNIST dataset. Please find our project report [here](Project_Report.pdf).
 
 ## Folder structure
 In the directory `code` you can find 5 files. 
