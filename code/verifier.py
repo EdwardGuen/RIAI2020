@@ -9,7 +9,6 @@ DEVICE = 'cpu'
 INPUT_SIZE = 28
 
 def analyze(net, inputs, eps, true_label): 
-    start = time()
     net.eval()
     d = DeepPoly(net, eps, inputs, true_label, back_sub_steps=20, only_first=False)
     b1, b2 = d.verify()
